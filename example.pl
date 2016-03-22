@@ -32,6 +32,6 @@ foreach $res (@results) {
     my ($suffix) = $res =~ /\.([^\.]*)$/;
     `wget -q -O$dirPath/$filename.$index.$suffix $res`;
   } else {
-    print "$index.) $res\n";
+    print "$index.) $res\n" if defined($res);
   }
 }

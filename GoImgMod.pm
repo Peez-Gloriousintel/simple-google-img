@@ -16,6 +16,7 @@ sub getImgURL {
 	my $res = REST::Google::Search::Images->new(
 	        q => "$query",
 	);
+	print "Connect status from Google API = " . $res->responseStatus . "\n";
 	return undef if $res->responseStatus != 200;
 	my @urls = ();
 	foreach my $result (@{$res->{responseData}->{results}}){
