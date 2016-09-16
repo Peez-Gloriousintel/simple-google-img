@@ -1,3 +1,6 @@
+#
+# @author: pj4dev.mit@gmail.com
+#
 package GoImgMod;
 
 use base 'Exporter';

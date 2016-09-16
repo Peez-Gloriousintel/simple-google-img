@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+#
+# @author: pj4dev.mit@gmail.com
+#
 
 use warnings;
 use GoImgMod;

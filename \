@@ -2,8 +2,6 @@
 
 This software is a simple perl module with Google REST API.
 
-**WARNING:** this software is deprecated and no longer working due to REST Google module.
-
 ## Features
 Searching for images through Google Images with a specified keyword.
 
